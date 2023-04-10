@@ -1,6 +1,7 @@
 package net.head.mod;
 
 import net.fabricmc.api.ModInitializer;
+import net.head.mod.networking.ModMessages;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -12,7 +13,8 @@ public class heads implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-        Registry.register(Registry.ITEM, new Identifier("heads", "fabric_item"), FABRIC_ITEM);
+		Registry.register(Registry.ITEM, new Identifier("heads", "fabric_item"), FABRIC_ITEM);
+		ModMessages.registerC2SPackets();
 	}
 
 }

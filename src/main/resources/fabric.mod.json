@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.head.mod.heads"
+    ],
+    "client": [
+      "net.head.mod.headsClient"
     ]
   },
   "mixins": [

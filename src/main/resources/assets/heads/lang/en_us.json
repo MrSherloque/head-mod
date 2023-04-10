@@ -1,3 +1,5 @@
 {
-    "item.heads.fabric_item": "Fabric"
+    "item.heads.fabric_item": "Fabric",
+    "key.category.headmod.tutorial": "Tutorial Mod Keys",
+    "Key.headmod.test": "Test Key"
 }

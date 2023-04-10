@@ -17,7 +17,7 @@ public class heads implements ModInitializer {
 	public void onInitialize() {
 		Registry.register(Registry.ITEM, new Identifier("heads", "fabric_item"), FABRIC_ITEM);
 		ModMessages.registerC2SPackets();
-		ServerLivingEntityEvents.AfterDeath.EVENT.register(new AfterDeathHandler());
+		//ServerLivingEntityEvents.AfterDeath.EVENT.register(new AfterDeathHandler());
 	}
 
 }
